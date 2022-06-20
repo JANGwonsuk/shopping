@@ -3,7 +3,7 @@
         <div class="row container mx-auto pt-5">
           <div class="footer-one col-lg-3 col-md-6 col-sm-12">
             <img class="logo" src="assets/imgs/logo.png"/>
-            <p class="pt-3">We provide the best products for the most affordable prices</p>
+            <p class="pt-3">We provide the besst products for the most affordable prices</p>
           </div>
           <div class="footer-one col-lg-3 col-md-6 col-sm-12">
            <h5 class="pb-2">Featured</h5>
