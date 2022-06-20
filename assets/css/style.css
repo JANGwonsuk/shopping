@@ -68,8 +68,8 @@ button:hover{
 
 .navbar{
     font-size: 16px;
-    padding-top: 2rem !important;
-    padding-bottom: 2rem !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
     top: 0;
     left: 0;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1);
@@ -172,8 +172,8 @@ button:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: flex-start;
-    text-align: start;
+    align-items: center;
+    text-align: center;
 
 }
 
@@ -190,8 +190,8 @@ button:hover{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: flex-end;
-    text-align: end;
+    align-items: center;
+    text-align: center;
 
 }
 
@@ -254,10 +254,10 @@ hr{
 #banner{
     background-image: url('../imgs/banner.jpeg');
     width: 100%;
-    height: 60vh;
+    height: 100vh;
     background-size: cover;
     background-position-x: center;
-    background-position-y: 80px;
+    background-position-y: 60px;
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: flex;
@@ -267,11 +267,11 @@ hr{
 
 }
 #banner h1{
-   color: #fff;
+   color: rgb(97, 93, 33);
 }
 
 #banner h4{
-    color:#fff;
+    color:rgb(0, 0, 0);
 }
 
 #banner button{
@@ -338,8 +338,8 @@ footer .copyright img{
 
 
 .logo{
-    width: 80px;
-    height: 40px;;
+    width: 100px;
+    height: 50px;;
 }
 
 

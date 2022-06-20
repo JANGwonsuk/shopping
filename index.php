@@ -8,10 +8,11 @@
       <!--Home-->
       <section id="home">
         <div class="container">
-          <h5>NEW ARRIVALS</h5>
-          <h1><span>Best Prices</span> This Season</h1>
-          <p>Eshop offers the best products for the most affordable prices</p>
-          <button>Shop Now</button>
+          <h5>With AWS</h5>
+          <h1><span>More Faster</span> High Availability</h1>
+          <p>Now all you have to do is fast your fingers</p>
+          <button class="buy-btn" href="shop.php"> Buy Ticket Now </button>
+
         </div>
       </section>
 
@@ -32,25 +33,25 @@
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
             <img class="img-fluid" src="assets/imgs/PSY.jpeg"/>
             <div class="details">
-              <h2>Extreamely Awesome Shoes</h2>
-              <button class="text-uppercase">Shop Now</button>
+              <h2>PSY SUMMER SWAG 2022</h2>
+              <button class="text-uppercase">Buy Ticket Now</button>
             </div>
           </div>
           <!--Two-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/2.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/WATERBOMB 2022 - THAILAND.jpeg"/>
             <div class="details">
-              <h2>Awesome Jacket</h2>
-              <button class="text-uppercase">Shop Now</button>
+              <h2>WATERBOMB 2022 - THAILAND</h2>
+              <button class="text-uppercase">Buy Ticket Now</button>
             </div>
           </div>
 
           <!--Three-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/3.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/BTS.jpeg"/>
             <div class="details">
-              <h2>50% OFF Watches</h2>
-              <button class="text-uppercase">Shop Now</button>
+              <h2>BTS - SEOUL </h2>
+              <button class="text-uppercase">Buy Ticket Now</button>
             </div>
           </div>
         </div>
@@ -63,7 +64,7 @@
         <div class="container text-center mt-5 py-5">
           <h3>Our Featured</h3>
           <hr class="mx-auto">
-          <p>Here you can check out our featured products</p>
+          <p>Here you can check out our featured tickets</p>
         </div>
         <div class="row mx-auto container-fluid">
 
@@ -84,7 +85,7 @@
             </div>
             <h5 class="p-name"><?php echo $row['product_name']; ?></h5>
             <h4 class="p-price">$ <?php echo $row['product_price']; ?></h4>
-           <a href="<?php echo "single_product.php?product_id=". $row['product_id'];?>"><button class="buy-btn">Buy Now</button></a> 
+           <a href="<?php echo "single_product.php?product_id=". $row['product_id'];?>"><button class="buy-btn">Buy Ticket Now</button></a> 
           </div>
       
  
@@ -96,9 +97,9 @@
       <!--Banner-->
       <section id="banner" class="my-5 py-5">
         <div class="container">
-          <h4>MID SEASON'S SALE</h4>
-          <h1>Autumn Collection <br> UP to 30% OFF</h1>
-          <button class="text-uppercase">shop now</button>
+          <h4>FIFA WORLD CUP</h4>
+          <h1>Qatar 2022<br> Exclusive Sale</h1>
+          <button class="text-uppercase">Cooming Soon</button>
         </div>
       </section>
    
