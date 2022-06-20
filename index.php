@@ -3,7 +3,6 @@
 <?php include('layouts/header.php'); ?>
 
 
-수정
 
 
       <!--Home-->
