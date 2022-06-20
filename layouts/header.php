@@ -28,7 +28,7 @@ session_start();
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
         <div class="container">
-         <img class="logo" src="assets/imgs/logo.jpeg" />
+         <img class="logo" src="assets/imgs/logo.png" />
          <h2 class="brand">Orange</h2>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
