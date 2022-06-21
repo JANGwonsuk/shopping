@@ -159,7 +159,14 @@ if(isset($_POST['search'])){
                   Bags
                 </label>
               </div>
+              
+              <div class="form-check">
+                <input class="form-check-input" value="Korea" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='Korea'){echo 'checked';}?>>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Korea
+                </label>
 
+              </div>
            </div>
          </div>
 
