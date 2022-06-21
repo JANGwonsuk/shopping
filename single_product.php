@@ -82,10 +82,16 @@ if(isset($_GET['product_id'])){
                       <button class="buy-btn" type="submit" name="add_to_cart">Add To Cart</button>
                 </form>
 
-               
+                <div>  
                 <h4 class="mt-5 mb-5">Product details</h4>
                 <span><?php echo $row['product_description']; ?>
                 </span>
+                </div>
+
+                <div>
+                <span><?php echo $row['product_color']; ?>
+                </span>
+                </div>
             </div>
 
         

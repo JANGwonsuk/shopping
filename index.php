@@ -31,7 +31,7 @@
         <div class="row p-0 m-0">
           <!--One-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/PSY.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/PSY SUMMER SWAG 2022 - INCHEON1.jpeg"/>
             <div class="details">
               <h2>PSY SUMMER SWAG 2022</h2>
               <a href="single_product.php?product_id=1"><button class="buy-btn">Buy Now</button></a> 
