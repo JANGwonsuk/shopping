@@ -35,8 +35,8 @@
        
 
       <div class="container mt-3">
-        <p>Please contact admin@email.com</p>
-        <p>Please call 12345678</p>
+        <p>Please contact 4AM_MASTER@email.com</p>
+        <p>Please call 010-7777-7777</p>
       </div>
    
 

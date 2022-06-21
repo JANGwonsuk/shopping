@@ -107,7 +107,7 @@ if(isset($_GET['product_id'])){
             </div>
             <div class="row mx-auto container-fluid">
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-                <img class="img-fluid mb-3" src="assets/imgs/featured1.jpeg"/>
+                <img class="img-fluid mb-3" src="assets/imgs/PSY SUMMER SWAG 2022 - INCHEON1.jpeg"/>
                 <div class="star">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -115,12 +115,12 @@ if(isset($_GET['product_id'])){
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5 class="p-name">Sports Shoes</h5>
-                <h4 class="p-price">$199.8</h4>
-                <button class="buy-btn">Buy Now</button>
+                <h5 class="p-name">PSY SUMMER SWAG 2022 - INCHEON</h5>
+                <h4 class="p-price">$100</h4>
+                <a href="single_product.php?product_id=1"><button class="buy-btn">Buy Now</button></a>
               </div>
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-                <img class="img-fluid mb-3" src="assets/imgs/featured2.jpeg"/>
+                <img class="img-fluid mb-3" src="assets/imgs/WATERBOMB 2022 - THAILAND1.jpeg"/>
                 <div class="star">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -128,9 +128,9 @@ if(isset($_GET['product_id'])){
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5 class="p-name">Sports Shoes</h5>
-                <h4 class="p-price">$199.8</h4>
-                <button class="buy-btn">Buy Now</button>
+                <h5 class="p-name">WATERBOMB - THAILAND</h5>
+                <h4 class="p-price">$100</h4>
+                <a href="single_product.php?product_id=2"><button class="buy-btn">Buy Now</button></a>
               </div>
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
                 <img class="img-fluid mb-3" src="assets/imgs/WATERBOMB 2022 - THAILAND1.jpeg"/>

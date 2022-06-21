@@ -34,7 +34,7 @@
             <img class="img-fluid" src="assets/imgs/PSY.jpeg"/>
             <div class="details">
               <h2>PSY SUMMER SWAG 2022</h2>
-              <a href="single_product.php?product_id=2"><button class="buy-btn">Buy Now</button></a> 
+              <a href="single_product.php?product_id=1"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
           <!--Two-->
@@ -42,7 +42,7 @@
             <img class="img-fluid" src="assets/imgs/WATERBOMB 2022 - THAILAND.jpeg"/>
             <div class="details">
               <h2>WATERBOMB 2022 - THAILAND</h2>
-              <a href="single_product.php?product_id=4"><button class="buy-btn">Buy Now</button></a> 
+              <a href="single_product.php?product_id=2"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
 

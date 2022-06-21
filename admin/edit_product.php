@@ -100,7 +100,7 @@
                 </div>
                 
                   <div class="form-group mt-2">
-                      <label>Loaction</label>
+                      <label>LOCATION</label>
                       <input type="text" class="form-control" value="<?php  echo $product['product_color']?>"  id="product-color" name="color" placeholder="Color" required/>
                   </div>
 

@@ -143,7 +143,7 @@
               <th scope="col">Product Price</th>
               <th scope="col">Product Offer</th>
               <th scope="col">Product Category</th>
-              <th scope="col">Product Color</th>
+              <th scope="col">LOCATION</th>
               <th scope="col">Edit Images</th>
               <th scope="col">Edit</th>
               <th scope="col">Delete</th>
