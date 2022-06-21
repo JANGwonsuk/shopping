@@ -90,15 +90,17 @@
                 <div class="form-group mt-2">
                     <label>Category</label>
                     <select  class="form-select" required name="category" >
-                        <option value="bags">Bags</option>
-                        <option value="shoes">Shoes</option>
-                        <option value="watches">Watches</option>
-                        <option value="coats">Coats</option>
+                        <option value="ASIA">ASIA</option>
+                        <option value="AFRICA">AFRICA</option>
+                        <option value="EUROPE">EUROPE</option>
+                        <option value="OCEANIA">OCEANIA</option>
+                        <option value="NORTH AMERICA">NORTH AMERICA</option>
+                        <option value="SOUTH AMERICA">SOUTH AMERICA</option>                        
                     </select>
                 </div>
                 
                   <div class="form-group mt-2">
-                      <label>Color</label>
+                      <label>Loaction</label>
                       <input type="text" class="form-control" value="<?php  echo $product['product_color']?>"  id="product-color" name="color" placeholder="Color" required/>
                   </div>
 

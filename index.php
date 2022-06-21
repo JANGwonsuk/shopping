@@ -11,7 +11,7 @@
           <h5>With AWS</h5>
           <h1><span>More Faster</span> High Availability</h1>
           <p>Now all you have to do is fast your fingers</p>
-          <button class="buy-btn" href="shop.php"> Buy Ticket Now </button>
+          <a href="shop.php"><button class="buy-btn">Buy Ticket Now</button></a> 
 
         </div>
       </section>
@@ -34,7 +34,7 @@
             <img class="img-fluid" src="assets/imgs/PSY.jpeg"/>
             <div class="details">
               <h2>PSY SUMMER SWAG 2022</h2>
-              <button class="text-uppercase">Buy Ticket Now</button>
+              <a href="single_product.php?product_id=2"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
           <!--Two-->
@@ -42,7 +42,7 @@
             <img class="img-fluid" src="assets/imgs/WATERBOMB 2022 - THAILAND.jpeg"/>
             <div class="details">
               <h2>WATERBOMB 2022 - THAILAND</h2>
-              <button class="text-uppercase">Buy Ticket Now</button>
+              <a href="single_product.php?product_id=4"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
 
@@ -51,7 +51,7 @@
             <img class="img-fluid" src="assets/imgs/BTS.jpeg"/>
             <div class="details">
               <h2>BTS - SEOUL </h2>
-              <button class="text-uppercase">Buy Ticket Now</button>
+              <a href="single_product.php?product_id=#"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
         </div>
@@ -105,15 +105,15 @@
    
 
       <!--Clothes-->
-      <section id="Clothes" class="my-5">
+      <section id="ASIA" class="my-5">
         <div class="container text-center mt-5 py-5">
-          <h3>Coats</h3>
+          <h3>ASIA</h3>
           <hr class="mx-auto">
-          <p>Here you can check out our amazing clothes</p>
+          <p>Make Good Memories</p>
         </div>
         <div class="row mx-auto container-fluid">
 
-        <?php include('server/get_coats.php'); ?>
+        <?php include('server/get_ASIA.php'); ?>
         <?php while($row=$coats_products->fetch_assoc()){ ?>
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
@@ -138,15 +138,15 @@
 
 
       <!--Watches-->
-     <section id="watches" class="my-5">
+     <section id="NORTH AMERICA" class="my-5">
       <div class="container text-center mt-5 py-5">
-        <h3>Best Watches</h3>
+        <h3>NORTH AMERICA</h3>
         <hr class="mx-auto">
-        <p>Check out our unique watches</p>
+        <p>Make Good Memories</p>
       </div>
       <div class="row mx-auto container-fluid">
 
-      <?php include('server/get_watches.php'); ?>
+      <?php include('server/get_NORTH AMERICA.php'); ?>
       <?php while($row=$watches->fetch_assoc()){ ?>
 
         <div class="product text-center col-lg-3 col-md-4 col-sm-12">
@@ -170,15 +170,15 @@
      </section>
 
       <!--Shoes-->
-      <section id="shoes" class="my-5">
+      <section id="EUROPE" class="my-5">
         <div class="container text-center mt-5 py-5">
-          <h3>Shoes</h3>
+          <h3>EUROPE</h3>
           <hr class="mx-auto">
-          <p>Here you can check out our amazing shoes</p>
+          <p>Make Good Memories</p>
         </div>
         <div class="row mx-auto container-fluid">
 
-        <?php include('server/get_shoes.php');?>
+        <?php include('server/get_EUROPE.php');?>
 
         <?php while($row=$shoes->fetch_assoc()){ ?>
 

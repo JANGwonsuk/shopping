@@ -27,9 +27,8 @@ session_start();
 
     <!--Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 fixed-top">
-        <div class="container">
-         <img class="logo" src="assets/imgs/logo.png" />
-         
+        <div class="container">         
+         <a href="index.php"><img class="logo" src="assets/imgs/logo.png" /></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -54,17 +53,16 @@ session_start();
 
 
               <li class="nav-item">
-
-              </li>
-
-              <li href="cart.php">
+                <a href="cart.php">
                   <i class="fas fa-shopping-bag">
                     <?php if(isset($_SESSION['quantity']) && $_SESSION['quantity'] != 0) {?>
                           <span class="cart-quantity"> <?php echo $_SESSION['quantity'];  ?> </span>
                     <?php } ?>  
-                    </i>
-                    </li>
+                  </i>
+                </a>
+                
                 <a href="account.php"><i class="fas fa-user"></i></a>
+              </li>
               
 
 

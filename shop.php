@@ -122,7 +122,7 @@ if(isset($_POST['search'])){
     <!--Search-->
   <section id="search" class="my-5 py-5 ms-2">
     <div class="container mt-5 py-5">
-      <p>Search Products</p>
+      <p>Search Tickets</p>
       <hr>
     </div>
 
@@ -133,42 +133,49 @@ if(isset($_POST['search'])){
 
             <p>Category</p>
                <div class="form-check">
-                <input class="form-check-input" value="shoes" type="radio" name="category" id="category_one" <?php if(isset($category) && $category=='shoes'){echo 'checked';}?> >
+                <input class="form-check-input" value="ASIA" type="radio" name="category" id="category_one" <?php if(isset($category) && $category=='ASIA'){echo 'checked';}?> >
                 <label class="form-check-label" for="flexRadioDefault1">
-                  Shoes
+                  ASIA
                 </label>
               </div>
 
               <div class="form-check">
-                <input class="form-check-input" value="coats" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='coats'){echo 'checked';}?>>
+                <input class="form-check-input" value="AFRICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='AFRICA'){echo 'checked';}?>>
                 <label class="form-check-label" for="flexRadioDefault2">
-                  Coats
+                  AFRICA
                 </label>
               </div>
 
                <div class="form-check">
-                <input class="form-check-input" value="watches" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='watches'){echo 'checked';}?>>
+                <input class="form-check-input" value="EUROPE" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='EUROPE'){echo 'checked';}?>>
                 <label class="form-check-label" for="flexRadioDefault2">
-                  Watches
+                  EUROPE
                 </label>
               </div>
 
                <div class="form-check">
-                <input class="form-check-input" value="bags" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='bags'){echo 'checked';}?>>
+                <input class="form-check-input" value="OCEANIA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='OCEANIA'){echo 'checked';}?>>
                 <label class="form-check-label" for="flexRadioDefault2">
-                  Bags
+                  OCEANIA
                 </label>
               </div>
               
               <div class="form-check">
-                <input class="form-check-input" value="Korea" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='Korea'){echo 'checked';}?>>
+                <input class="form-check-input" value="NORTH AMERICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='NORTH AMERICA'){echo 'checked';}?>>
                 <label class="form-check-label" for="flexRadioDefault2">
-                  Korea
+                  NORTH AMERICA
                 </label>
-
               </div>
-           </div>
-         </div>
+
+              <div class="form-check">
+                <input class="form-check-input" value="SOUTH AMERICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='SOUTH AMERICA'){echo 'checked';}?>>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  SOUTH AMERICA
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
 
 
          <div class="row mx-auto container mt-5">
