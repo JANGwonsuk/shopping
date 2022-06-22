@@ -97,7 +97,8 @@
       <!--Banner-->
       <section id="banner" class="my-5 py-5">
         <div class="container">
-          <h4>FIFA WORLD CUP</h4>
+          <h8>FIFA WORLD CUP</h8>
+          
           <h1>Qatar 2022<br> Exclusive Sale</h1>
           <button class="text-uppercase">Cooming Soon</button>
         </div>
