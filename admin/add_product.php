@@ -31,7 +31,7 @@
                     <input type="text" class="form-control" id="product-name" name="name" placeholder="Title" required/>
                 </div>
                   <div class="form-group mt-2">
-                      <label>Description</label>
+                      <label>Date</label>
                       <input type="text" class="form-control" id="product-desc" name="description" placeholder="Description" required/>
                   </div>
                   <div class="form-group mt-2">

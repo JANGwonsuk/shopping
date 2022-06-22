@@ -80,7 +80,7 @@
                     <input type="text" class="form-control" id="product-name" value="<?php echo $product['product_name']?>" name="title" placeholder="Title" required/>
                 </div>
                   <div class="form-group mt-2">
-                      <label>Description</label>
+                      <label>Date</label>
                       <input type="text" class="form-control" id="product-desc" value="<?php echo $product['product_description']?>"  name="description" placeholder="Description" required/>
                   </div>
                   <div class="form-group mt-2">
@@ -94,8 +94,8 @@
                         <option value="AFRICA">AFRICA</option>
                         <option value="EUROPE">EUROPE</option>
                         <option value="OCEANIA">OCEANIA</option>
-                        <option value="NORTH AMERICA">NORTH AMERICA</option>
-                        <option value="SOUTH AMERICA">SOUTH AMERICA</option>                        
+                        <option value="NORTHAMERICA">NORTH AMERICA</option>
+                        <option value="SOUTHAMERICA">SOUTH AMERICA</option>                        
                     </select>
                 </div>
                 

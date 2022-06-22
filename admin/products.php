@@ -183,8 +183,11 @@
 
           <li class="page-item"><a class="page-link" href="?page_no=1">1</a></li>
           <li class="page-item"><a class="page-link" href="?page_no=2">2</a></li>
-
-          <?php if( $page_no >=3) {?>
+          <li class="page-item"><a class="page-link" href="?page_no=3">3</a></li>
+          <li class="page-item"><a class="page-link" href="?page_no=4">4</a></li>
+          <li class="page-item"><a class="page-link" href="?page_no=5">5</a></li>
+          <li class="page-item"><a class="page-link" href="?page_no=6">6</a></li>
+          <?php if( $page_no >=7) {?>
             <li class="page-item"><a class="page-link" href="#">...</a></li>
             <li class="page-item"><a class="page-link" href="<?php echo "?page_no=".$page_no;?>"><?php echo $page_no;?></a></li>
           <?php } ?>

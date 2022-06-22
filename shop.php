@@ -161,14 +161,14 @@ if(isset($_POST['search'])){
               </div>
               
               <div class="form-check">
-                <input class="form-check-input" value="NORTH AMERICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='NORTH AMERICA'){echo 'checked';}?>>
+                <input class="form-check-input" value="NORTHAMERICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='NORTHAMERICA'){echo 'checked';}?>>
                 <label class="form-check-label" for="flexRadioDefault2">
                   NORTH AMERICA
                 </label>
               </div>
 
               <div class="form-check">
-                <input class="form-check-input" value="SOUTH AMERICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='SOUTH AMERICA'){echo 'checked';}?>>
+                <input class="form-check-input" value="SOUTHAMERICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='SOUTHAMERICA'){echo 'checked';}?>>
                 <label class="form-check-label" for="flexRadioDefault2">
                   SOUTH AMERICA
                 </label>
@@ -182,7 +182,7 @@ if(isset($_POST['search'])){
            <div class="col-lg-12 col-md-12 col-sm-12">
 
                <p>Price</p>
-               <input type="range" class="form-range w-50" name="price" value="<?php if(isset($price)){echo $price;}else{ echo "100";} ?>" min="1" max="1000" id="customRange2">
+               <input type="range" class="form-range w-50" name="price" value="<?php if(isset($price)){echo $price;}else{ echo "500";} ?>" min="1" max="1000" id="customRange2">
                <div class="w-50">
                  <span style="float: left;">1</span>
                  <span style="float:right;">1000</span>
@@ -251,8 +251,11 @@ if(isset($_POST['search'])){
 
           <li class="page-item"><a class="page-link" href="?page_no=1">1</a></li>
           <li class="page-item"><a class="page-link" href="?page_no=2">2</a></li>
+          <li class="page-item"><a class="page-link" href="?page_no=3">3</a></li>
+          <li class="page-item"><a class="page-link" href="?page_no=4">4</a></li>
+          <li class="page-item"><a class="page-link" href="?page_no=5">5</a></li>
 
-          <?php if( $page_no >=3) {?>
+          <?php if( $page_no >=6) {?>
             <li class="page-item"><a class="page-link" href="#">...</a></li>
             <li class="page-item"><a class="page-link" href="<?php echo "?page_no=".$page_no;?>"><?php echo $page_no;?></a></li>
           <?php } ?>

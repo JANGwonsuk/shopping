@@ -39,7 +39,7 @@
           </div>
           <!--Two-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/WATERBOMB 2022 - THAILAND.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/WATERBOMB 2022 - THAILAND1.jpeg"/>
             <div class="details">
               <h2>WATERBOMB 2022 - THAILAND</h2>
               <a href="single_product.php?product_id=2"><button class="buy-btn">Buy Now</button></a> 
@@ -48,10 +48,10 @@
 
           <!--Three-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/BTS.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/BTS WORLDTOUR - NEWYORK1.jpeg"/>
             <div class="details">
-              <h2>BTS - SEOUL </h2>
-              <a href="single_product.php?product_id=#"><button class="buy-btn">Buy Now</button></a> 
+              <h2>BTS WORLDTOUR - NEWYORK </h2>
+              <a href="single_product.php?product_id=3"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
         </div>

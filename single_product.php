@@ -84,13 +84,15 @@ if(isset($_GET['product_id'])){
 
                 <div>  
                 <h4 class="mt-5 mb-5">Product details</h4>
-                <span><?php echo $row['product_description']; ?>
+                
+                <span>DATE : <?php echo $row['product_description']; ?>
                 </span>
                 </div>
 
                 <div>
-                <span><?php echo $row['product_color']; ?>
+                <span>LOCATION : <?php echo $row['product_color']; ?>
                 </span>
+                <a href="https://www.google.co.kr/maps/search/<?php echo $row['product_color']; ?>/"><i class="fas fa-map-pin"></i></a>
                 </div>
             </div>
 
@@ -139,7 +141,7 @@ if(isset($_GET['product_id'])){
                 <a href="single_product.php?product_id=2"><button class="buy-btn">Buy Now</button></a>
               </div>
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-                <img class="img-fluid mb-3" src="assets/imgs/WATERBOMB 2022 - THAILAND1.jpeg"/>
+                <img class="img-fluid mb-3" src="assets/imgs/BTS WORLDTOUR - NEWYORK1.jpeg"/>
                 <div class="star">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -147,12 +149,12 @@ if(isset($_GET['product_id'])){
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5 class="p-name">Sports Shoes</h5>
-                <h4 class="p-price">$100</h4>
-                <button class="buy-btn">Buy Now</button>
+                <h5 class="p-name">BTS WORLDTOUR - NEWYORK</h5>
+                <h4 class="p-price">$150</h4>
+                <a href="single_product.php?product_id=3"><button class="buy-btn">Buy Now</button></a>
               </div>
               <div class="product text-center col-lg-3 col-md-4 col-sm-12">
-                <img class="img-fluid mb-3" src="assets/imgs/featured4.jpeg"/>
+                <img class="img-fluid mb-3" src="assets/imgs/BLACK PINK WORLDTOUR - LONDON1.jpeg"/>
                 <div class="star">
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
@@ -160,9 +162,9 @@ if(isset($_GET['product_id'])){
                   <i class="fas fa-star"></i>
                   <i class="fas fa-star"></i>
                 </div>
-                <h5 class="p-name">Sports Shoes</h5>
-                <h4 class="p-price">$199.8</h4>
-                <button class="buy-btn">Buy Now</button>
+                <h5 class="p-name">BLACK PINK WORLDTOUR - LONDON</h5>
+                <h4 class="p-price">$200</h4>
+                <a href="single_product.php?product_id=4"><button class="buy-btn">Buy Now</button></a>
               </div>
             </div>
           </section>

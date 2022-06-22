@@ -54,6 +54,7 @@
             </div>
             <div class="col-lg-3 col-md-5 col-sm-12 mb-4 text-nowrap mb-2">
               <p>eCommerce @ 2025 All Right Reserved</p>
+              <p>Design By Soldesk507.Tech</p>
             </div>
 
             <div class="col-lg-3 col-md-5 col-sm-12 mb-4">
