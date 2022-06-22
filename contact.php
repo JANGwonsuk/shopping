@@ -20,7 +20,7 @@
             4AM_WOOHYUN LIM <a href="https://www.instagram.com/woo___hyun_/"><i class="fab fa-instagram"></i></a>
             </p>
             <p>
-            4AM_JONGHO_KIM <a href="https://www.instagram.com/hohihellohi/"><i class="fab fa-instagram"></i></a>
+            4AM_JONGHO KIM <a href="https://www.instagram.com/hohihellohi/"><i class="fab fa-instagram"></i></a>
             4AM_CHAEHOON LIM <a href="https://www.instagram.com/limchaebari/"><i class="fab fa-instagram"></i></a>
             </p>
             <p class="w-50 mx-auto">

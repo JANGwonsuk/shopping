@@ -20,15 +20,16 @@
           <div class="footer-one col-lg-3 col-md-6 col-sm-12">
             <h5 class="pb-2">Contact Us</h5>
             <div>
-              <h6 class="text-uppercase">Address</h6>
+              <h7 class="text-uppercase">Address</h7>
               <p> 507 SOLDESK SEOUL KOREA</p>
             </div>
             <div>
-              <h6 class="text-uppercase">Phone</h6>
+              <h7 class="text-uppercase">Phone</h7>
+              
               <p>010-7777-7777</p>
             </div>
             <div>
-              <h6 class="text-uppercase">Email</h6>
+              <h7 class="text-uppercase">Email</h7>
               <p>4AM@email.com</p>
             </div>
           </div>
