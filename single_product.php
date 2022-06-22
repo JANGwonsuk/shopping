@@ -90,10 +90,22 @@ if(isset($_GET['product_id'])){
                 </div>
 
                 <div>
-                <span>LOCATION : <?php echo $row['product_color']; ?>
+                <span><br>LOCATION : <?php echo $row['product_color']; ?>
                 </span>
                 <a href="https://www.google.co.kr/maps/search/<?php echo $row['product_color']; ?>/"><i class="fas fa-map-pin"></i></a>
                 </div>
+               
+                <div>
+                <span>
+                <br>
+                  Reservation information :
+                  <br>
+                  <br>
+                  Refunds are not available from one week prior to the day of the performance.
+                  <br>
+                  The code will be sent to the phone number entered when booking.
+                </span>
+                </div>  
             </div>
 
         

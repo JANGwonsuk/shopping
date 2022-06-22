@@ -3,13 +3,13 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- 생성 시간: 22-06-22 17:06
+-- 생성 시간: 22-06-22 17:45
 -- 서버 버전: 10.4.24-MariaDB
 -- PHP 버전: 8.1.6
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
-SET time_zone = "+09:00";
+SET time_zone = "+00:00";
 
 
 /*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
@@ -69,7 +69,7 @@ CREATE TABLE `orders` (
 --
 
 INSERT INTO `orders` (`order_id`, `order_cost`, `order_status`, `user_id`, `user_phone`, `user_city`, `user_address`, `order_date`) VALUES
-(1, '100.00', 'paid', 1, 1023936589, 'Seoul', '24-18, Yeonhui-ro 10gil, Seodaemun-gu,, 301 Ho', '2022-06-21 15:15:16');
+(1, '120.00', 'paid', 1, 1023936589, 'Seoul', '24-18, Yeonhui-ro 10gil, Seodaemun-gu,, 301 Ho', '2022-06-22 15:41:04');
 
 -- --------------------------------------------------------
 
@@ -95,7 +95,7 @@ CREATE TABLE `order_items` (
 --
 
 INSERT INTO `order_items` (`item_id`, `order_id`, `product_id`, `product_name`, `product_image`, `product_price`, `product_quantity`, `user_id`, `order_date`) VALUES
-(1, 1, '1', 'PSY SUMMER SWAG 2022', 'PSY SUMMER SWAG 20221.jpeg', '100', 1, 1, '2022-06-21 08:15:16');
+(1, 2, '6', 'TOTTENHAM HOTSPUR VS TEAM K-LEAGUE', 'TOTTENHAM HOTSPUR VS TEAM K-LEAGUE1.jpeg', '120', 1, 1, '2022-06-22 15:41:04');
 
 -- --------------------------------------------------------
 
@@ -117,7 +117,7 @@ CREATE TABLE `payments` (
 --
 
 INSERT INTO `payments` (`payment_id`, `order_id`, `user_id`, `transaction_id`, `payment_date`) VALUES
-(1, 1, 1, '8JP44336AH174323K', '2022-06-21 08:15:29');
+(1, 2, 1, '8EC84214A5084661F', '2022-06-22 15:41:20');
 
 -- --------------------------------------------------------
 
@@ -156,7 +156,7 @@ INSERT INTO `products` (`product_id`, `product_name`, `product_category`, `produ
 (9, 'AESPA WORLD CONCERT - ARGENTINA', 'SOUTHAMERICA', '2022.07.16(SAT) 18:00', 'AESPA WORLD CONCERT - ARGENTINA1.jpeg', 'AESPA WORLD CONCERT - ARGENTINA2.jpeg', 'AESPA WORLD CONCERT - ARGENTINA3.jpeg', 'AESPA WORLD CONCERT - ARGENTINA4.jpeg', '200.00', 0, 'Ciudad Cultural Konex'),
 (10, '(G)IDLE WORLDTOUR - CHILE', 'SOUTHAMERICA', '2022.07.30(SAT) 18:00', '(G)IDLE WORLDTOUR - Chile1.jpeg', '(G)IDLE WORLDTOUR - Chile2.jpeg', '(G)IDLE WORLDTOUR - Chile3.jpeg', '(G)IDLE WORLDTOUR - Chile4.jpeg', '150.00', 0, 'Movistar Arena'),
 (11, 'NCT WORLDTOUR - AUSTRALIA', 'OCEANIA', '2022.07.16(SAT) 18:00', 'NCT WORLDTOUR - Australia1.jpeg', 'NCT WORLDTOUR - Australia2.jpeg', 'NCT WORLDTOUR - Australia3.jpeg', 'NCT WORLDTOUR - Australia4.jpeg', '200.00', 0, 'Accor Stadium'),
-(12, 'TWICE WORLD TOUR - Brazil', 'SOUTHAMERICA', '2022.07.2(SAT) 18:00', 'TWICE WORLD TOUR - Brazil1.jpeg', 'TWICE WORLD TOUR - Brazil2.jpeg', 'TWICE WORLD TOUR - Brazil3.jpeg', 'TWICE WORLD TOUR - Brazil4.jpeg', '180.00', 0, 'Allianz Parque'),
+(12, 'TWICE WORLD TOUR - BRAZIL', 'SOUTHAMERICA', '2022.07.2(SAT) 18:00', 'TWICE WORLD TOUR - Brazil1.jpeg', 'TWICE WORLD TOUR - Brazil2.jpeg', 'TWICE WORLD TOUR - Brazil3.jpeg', 'TWICE WORLD TOUR - Brazil4.jpeg', '180.00', 0, 'Allianz Parque'),
 (13, 'HIPHOP PLAYA 2022 - SEOUL', 'KOREA', '2022.09.17(SAT) 15:00', 'HIPHOP PLAYA 20221.jpeg', 'HIPHOP PLAYA 20222.jpeg', 'HIPHOP PLAYA 20223.jpeg', 'HIPHOP PLAYA 20224.jpeg', '50.00', 0, 'Nanji Hangang Park'),
 (14, 'RED VElVET WORLDTOUR - TOKYO', 'ASIA', '2022.07.30(SAT) 18:00', 'RED VElVET CONCERT - TOKYO1.jpeg', 'RED VElVET CONCERT - TOKYO2.jpeg', 'RED VElVET CONCERT - TOKYO3.jpeg', 'RED VElVET CONCERT - TOKYO4.jpeg', '200.00', 0, 'Tokyo Dome'),
 (15, 'EXO WORLDTOUR - OSAKA', 'ASIA', '2022.09.13(SAT) 18:00', 'EXO WORLDTOUR - OSAKA1.jpeg', 'EXO WORLDTOUR - OSAKA2.jpeg', 'EXO WORLDTOUR - OSAKA3.jpeg', 'EXO WORLDTOUR - OSAKA4.jpeg', '220.00', 0, 'Osaka-jo Hall'),

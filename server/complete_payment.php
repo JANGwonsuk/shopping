@@ -6,6 +6,7 @@ include('connection.php');
 
 
 if(isset($_GET['transaction_id'])  && isset($_GET['order_id'])){
+    date_default_timezone_set('Asia/Seoul');
 
             $order_id = $_GET['order_id'];
             $order_status = "paid";

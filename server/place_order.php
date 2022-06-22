@@ -18,7 +18,8 @@ if(!isset($_SESSION['logged_in'])){
 
                 if( isset($_POST['place_order'])  ){
 
-
+                    date_default_timezone_set('Asia/Seoul');
+                    
                     //1. get user info and store it in database
                     $name = $_POST['name'];
                     $email = $_POST['email'];
