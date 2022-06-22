@@ -99,11 +99,11 @@ if(isset($_GET['product_id'])){
                 <span>
                 <br>
                   Reservation information :
+                
                   <br>
+                  -Refunds are not available from one week prior to the day of the performance.
                   <br>
-                  Refunds are not available from one week prior to the day of the performance.
-                  <br>
-                  The code will be sent to the phone number entered when booking.
+                  -The code will be sent to the phone number entered when booking.
                 </span>
                 </div>  
             </div>
