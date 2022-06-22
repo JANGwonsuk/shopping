@@ -8,7 +8,7 @@ $stmt = $conn->prepare("SELECT * FROM products WHERE product_category='ASIA' LIM
 $stmt->execute();
 
 
-$coats_products = $stmt->get_result();//[]
+$watches = $stmt->get_result();//[]
 
 
 

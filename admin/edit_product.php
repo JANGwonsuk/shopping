@@ -90,8 +90,8 @@
                 <div class="form-group mt-2">
                     <label>Category</label>
                     <select  class="form-select" required name="category" >
+                        <option value="KOREA">KOREA</option>
                         <option value="ASIA">ASIA</option>
-                        <option value="AFRICA">AFRICA</option>
                         <option value="EUROPE">EUROPE</option>
                         <option value="OCEANIA">OCEANIA</option>
                         <option value="NORTHAMERICA">NORTH AMERICA</option>

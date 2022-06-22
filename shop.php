@@ -133,16 +133,16 @@ if(isset($_POST['search'])){
 
             <p>Category</p>
                <div class="form-check">
-                <input class="form-check-input" value="ASIA" type="radio" name="category" id="category_one" <?php if(isset($category) && $category=='ASIA'){echo 'checked';}?> >
+                <input class="form-check-input" value="KOREA" type="radio" name="category" id="category_one" <?php if(isset($category) && $category=='KOREA'){echo 'checked';}?> >
                 <label class="form-check-label" for="flexRadioDefault1">
-                  ASIA
+                  KOREA
                 </label>
               </div>
 
               <div class="form-check">
-                <input class="form-check-input" value="AFRICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='AFRICA'){echo 'checked';}?>>
+                <input class="form-check-input" value="ASIA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='ASIA'){echo 'checked';}?>>
                 <label class="form-check-label" for="flexRadioDefault2">
-                  AFRICA
+                  ASIA
                 </label>
               </div>
 
