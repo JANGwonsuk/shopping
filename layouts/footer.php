@@ -26,7 +26,7 @@
             <div>
               <h7 class="text-uppercase">Phone</h7>
               
-              <p>010-7777-7777</p>
+              <p>010-1234-1234</p>
             </div>
             <div>
               <h7 class="text-uppercase">Email</h7>

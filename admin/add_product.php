@@ -32,7 +32,7 @@
                 </div>
                   <div class="form-group mt-2">
                       <label>Date</label>
-                      <input type="text" class="form-control" id="product-desc" name="description" placeholder="Description" required/>
+                      <input type="text" class="form-control" id="product-desc" name="description" placeholder="DATE" required/>
                   </div>
                   <div class="form-group mt-2">
                     <label>Price</label>
@@ -52,15 +52,15 @@
                         <option value="ASIA">ASIA</option>
                         <option value="EUROPE">EUROPE</option>
                         <option value="OCEANIA">OCEANIA</option>
-                        <option value="NORTH AMERICA">NORTH AMERICA</option>
-                        <option value="SOUTH AMERICA">SOUTH AMERICA</option>
+                        <option value="NORTHAMERICA">NORTH AMERICA</option>
+                        <option value="SOUTHAMERICA">SOUTH AMERICA</option>
                     </select>
                 </div>
 
 
                 <div class="form-group mt-2">
-                      <label>LOCATION</label>
-                      <input type="text" class="form-control" id="product-color" name="color" placeholder="Color" required/>
+                      <label>Location</label>
+                      <input type="text" class="form-control" id="product-color" name="color" placeholder="Location" required/>
                   </div>
 
                 <div class="form-group mt-2">
