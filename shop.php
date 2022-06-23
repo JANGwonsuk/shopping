@@ -122,7 +122,7 @@ if(isset($_POST['search'])){
     <!--Search-->
   <section id="search" class="my-5 py-5 ms-2">
     <div class="container mt-5 py-5">
-      <p>Search Tickets</p>
+      <h3>Search Tickets</h3>
       <hr>
     </div>
 
@@ -131,7 +131,8 @@ if(isset($_POST['search'])){
            <div class="col-lg-12 col-md-12 col-sm-12">
             
 
-            <p>Category</p>
+            <h4>Category</h4>
+            <br>
                <div class="form-check">
                 <input class="form-check-input" value="KOREA" type="radio" name="category" id="category_one" <?php if(isset($category) && $category=='KOREA'){echo 'checked';}?> >
                 <label class="form-check-label" for="flexRadioDefault1">
