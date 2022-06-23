@@ -221,7 +221,7 @@ if(isset($_POST['search'])){
 
      <?php  while($row = $products->fetch_assoc()) { ?>
 
-      <div onclick="window.location.href='single_product.php';" class="product text-center col-lg-3 col-md-4 col-sm-12">
+      <div onclick= "href="<?php echo "single_product.php?product_id=".$row['product_id'];?> class="product text-center col-lg-3 col-md-4 col-sm-12">
         <img class="img-fluid mb-3" src="assets/imgs/<?php echo $row['product_image']; ?>"/>
         <div class="star">
           <i class="fas fa-star"></i>
