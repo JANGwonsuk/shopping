@@ -70,7 +70,7 @@
 
         <?php include('server/get_featured_products.php'); ?>
 
-<!-------->
+
         <?php while($row= $featured_products->fetch_assoc()){ ?>
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
