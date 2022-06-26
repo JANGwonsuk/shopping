@@ -58,7 +58,6 @@
       </section>
 
 
-      <!--Featured-->
 
       <!--Featured-->
       <section id="featured" class="my-5 pb-5">
