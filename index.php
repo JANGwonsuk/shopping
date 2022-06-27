@@ -92,7 +92,7 @@
           <?php } ?>
         </div>
       </section>
-
+<!--Banner-->
 
       <!--Banner-->
       <section id="banner" class="my-5 py-5">
