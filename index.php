@@ -1,10 +1,4 @@
-
-
-<?php include('layouts/header.php'); ?>
-
-
-
-
+<?php include('layouts/header.php');?>
       <!--Home-->
       <section id="home">
         <div class="container">

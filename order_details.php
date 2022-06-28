@@ -1,9 +1,5 @@
-<?php include('layouts/header.php'); ?>
-
-
+<?php include('layouts/header.php');?>
 <?php
-
-
 /*
   not paid
   shipped

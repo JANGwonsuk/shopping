@@ -1,12 +1,5 @@
 <?php include('layouts/header.php'); ?>
-
-
 <?php
-
-
-
-
-
 if( !empty($_SESSION['cart']) ){
 
   //let user in

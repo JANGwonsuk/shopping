@@ -1,12 +1,5 @@
-<?php include('layouts/header.php'); ?>
-
-
+<?php include('layouts/header.php');?>
 <?php
-
-
-
-
-
 if(isset($_POST['add_to_cart'])){
 
     //if user has already added a product to cart
