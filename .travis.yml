@@ -1,0 +1,37 @@
+language: generic
+
+node_js:
+  - 15
+
+sudo: required
+
+
+
+services:
+  - docker
+
+
+script:
+  - docker build -t t900341/ftest-frontend2 ./
+
+  - echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_ID" --password-stdin
+
+  - docker push t900341/ftest-frontend2
+
+#deploy:
+#  provider: elasticbeanstalks
+#  region: "ap-northeast-2"
+#  app: "app"                    #앱 이름
+#  env: "app-prod"               #EB 이름
+#  bucket_name: elasticbeanstalk-ap-northeast-2-200476763859     #S3 버킷 이름
+#  skip_cleanup: true
+#  bucket_path: "app"            #앱이름
+#  on:
+#    branch: master
+  
+#  access_key_id: $AWS_ACCESS_KEY
+#  secret_access_key: $AWS_SECRET_ACCESS_KEY
+
+
+
+

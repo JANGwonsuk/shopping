@@ -31,18 +31,18 @@
         <div class="row p-0 m-0">
           <!--One-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/PSY SUMMER SWAG 2022 - INCHEON1.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/DOK2 HIPHOP CONCERT - LA1.jpeg"/>
             <div class="details">
-              <h2>PSY SUMMER SWAG 2022</h2>
-              <a href="single_product.php?product_id=1"><button class="buy-btn">Buy Now</button></a> 
+              <h2>DOK2 HIPHOP CONCERT - LA</h2>
+              <a href="single_product.php?product_id=19"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
           <!--Two-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/WATERBOMB 2022 - THAILAND1.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/BLACK PINK WORLDTOUR - NEWYORK1.jpeg"/>
             <div class="details">
-              <h2>WATERBOMB 2022 - THAILAND</h2>
-              <a href="single_product.php?product_id=2"><button class="buy-btn">Buy Now</button></a> 
+              <h2>BLACK PINK WORLDTOUR - NEWYORK</h2>
+              <a href="single_product.php?product_id=7"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
 
@@ -106,16 +106,16 @@
    
 
       <!--Clothes-->
-      <section id="KOREA" class="my-5">
+      <section id="NORTHAMERICA" class="my-5">
         <div class="container text-center mt-5 py-5">
-          <h3>KOREA</h3>
+          <h3>NORTHAMERICA</h3>
           <hr class="mx-auto">
           <p>Make Good Memories</p>
         </div>
         <div class="row mx-auto container-fluid">
 
-        <?php include('server/get_KOREA.php'); ?>
-        <?php while($row=$coats_products->fetch_assoc()){ ?>
+        <?php include('server/get_NORTHAMERICA.php'); ?>
+        <?php while($row=$watches->fetch_assoc()){ ?>
 
           <div class="product text-center col-lg-3 col-md-4 col-sm-12">
             <img class="img-fluid mb-3" src="assets/imgs/<?php echo $row['product_image']; ?>"/>
@@ -138,17 +138,17 @@
       </section>
 
 
-      <!--Watches-->
-     <section id="ASIA" class="my-5">
+     
+     <section id="SOUTHAMERICA" class="my-5">
       <div class="container text-center mt-5 py-5">
-        <h3>ASIA</h3>
+        <h3>SOUTHAMERICA</h3>
         <hr class="mx-auto">
         <p>Make Good Memories</p>
       </div>
       <div class="row mx-auto container-fluid">
 
-      <?php include('server/get_ASIA.php'); ?>
-      <?php while($row=$watches->fetch_assoc()){ ?>
+      <?php include('server/get_SOUTHAMERICA.php'); ?>
+      <?php while($row=$coats_products->fetch_assoc()){ ?>
 
         <div class="product text-center col-lg-3 col-md-4 col-sm-12">
         <img class="img-fluid mb-3" src="assets/imgs/<?php echo $row['product_image']; ?>"/>

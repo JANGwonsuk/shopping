@@ -133,6 +133,29 @@ if(isset($_POST['search'])){
 
             <h4>Category</h4>
             <br>
+
+            <div class="form-check">
+                <input class="form-check-input" value="NORTHAMERICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='NORTHAMERICA'){echo 'checked';}?>>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  NORTH AMERICA
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input class="form-check-input" value="SOUTHAMERICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='SOUTHAMERICA'){echo 'checked';}?>>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  SOUTH AMERICA
+                </label>
+              </div>
+
+              
+              <div class="form-check">
+                <input class="form-check-input" value="EUROPE" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='EUROPE'){echo 'checked';}?>>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  EUROPE
+                </label>
+              </div>
+
                <div class="form-check">
                 <input class="form-check-input" value="KOREA" type="radio" name="category" id="category_one" <?php if(isset($category) && $category=='KOREA'){echo 'checked';}?> >
                 <label class="form-check-label" for="flexRadioDefault1">
@@ -147,12 +170,7 @@ if(isset($_POST['search'])){
                 </label>
               </div>
 
-               <div class="form-check">
-                <input class="form-check-input" value="EUROPE" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='EUROPE'){echo 'checked';}?>>
-                <label class="form-check-label" for="flexRadioDefault2">
-                  EUROPE
-                </label>
-              </div>
+
 
                <div class="form-check">
                 <input class="form-check-input" value="OCEANIA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='OCEANIA'){echo 'checked';}?>>
@@ -161,19 +179,8 @@ if(isset($_POST['search'])){
                 </label>
               </div>
               
-              <div class="form-check">
-                <input class="form-check-input" value="NORTHAMERICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='NORTHAMERICA'){echo 'checked';}?>>
-                <label class="form-check-label" for="flexRadioDefault2">
-                  NORTH AMERICA
-                </label>
-              </div>
 
-              <div class="form-check">
-                <input class="form-check-input" value="SOUTHAMERICA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='SOUTHAMERICA'){echo 'checked';}?>>
-                <label class="form-check-label" for="flexRadioDefault2">
-                  SOUTH AMERICA
-                </label>
-              </div>
+
             </div>
           </div>
         </div>
