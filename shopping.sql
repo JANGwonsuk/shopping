@@ -1,34 +1,13 @@
--- phpMyAdmin SQL Dump
--- version 5.2.0
--- https://www.phpmyadmin.net/
---
--- Host: 127.0.0.1
--- 생성 시간: 22-06-22 17:45
--- 서버 버전: 10.4.24-MariaDB
--- PHP 버전: 8.1.6
-
+관리자 ID: admin4am@naver.com
+관리자 PW: p@ssw0rd
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
 SET time_zone = "+00:00";
 
 
-/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
-/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
-/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
-/*!40101 SET NAMES utf8mb4 */;
-
---
--- 데이터베이스: `shopping`
 --
 CREATE DATABASE IF NOT EXISTS `shopping` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
 USE `shopping`;
-
--- --------------------------------------------------------
-
---
--- 테이블 구조 `admins`
---
-
 DROP TABLE IF EXISTS `admins`;
 CREATE TABLE `admins` (
   `admin_id` int(11) NOT NULL,
@@ -37,20 +16,9 @@ CREATE TABLE `admins` (
   `admin_password` text NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- 테이블의 덤프 데이터 `admins`
---
-
 INSERT INTO `admins` (`admin_id`, `admin_name`, `admin_email`, `admin_password`) VALUES
-(1, 'admin4am', 'admin4am@email.com', 'e10adc3949ba59abbe56e057f20f883e'),
-(2, 'admin4am', 'admin4am@email.com', 'e10adc3949ba59abbe56e057f20f883e'),
-(3, 'admin4am', 'admin4am@naver.com', '0f359740bd1cda994f8b55330c86d845');
+(1, 'admin4am', 'admin4am@naver.com', '0f359740bd1cda994f8b55330c86d845');
 
--- --------------------------------------------------------
-
---
--- 테이블 구조 `orders`
---
 
 DROP TABLE IF EXISTS `orders`;
 CREATE TABLE `orders` (
@@ -63,19 +31,6 @@ CREATE TABLE `orders` (
   `user_address` varchar(255) NOT NULL,
   `order_date` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- 테이블의 덤프 데이터 `orders`
---
-
-INSERT INTO `orders` (`order_id`, `order_cost`, `order_status`, `user_id`, `user_phone`, `user_city`, `user_address`, `order_date`) VALUES
-(1, '120.00', 'paid', 1, 1023936589, 'Seoul', '24-18, Yeonhui-ro 10gil, Seodaemun-gu,, 301 Ho', '2022-06-22 15:41:04');
-
--- --------------------------------------------------------
-
---
--- 테이블 구조 `order_items`
---
 
 DROP TABLE IF EXISTS `order_items`;
 CREATE TABLE `order_items` (
@@ -90,18 +45,6 @@ CREATE TABLE `order_items` (
   `order_date` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- 테이블의 덤프 데이터 `order_items`
---
-
-INSERT INTO `order_items` (`item_id`, `order_id`, `product_id`, `product_name`, `product_image`, `product_price`, `product_quantity`, `user_id`, `order_date`) VALUES
-(1, 2, '6', 'TOTTENHAM HOTSPUR VS TEAM K-LEAGUE', 'TOTTENHAM HOTSPUR VS TEAM K-LEAGUE1.jpeg', '120', 1, 1, '2022-06-22 15:41:04');
-
--- --------------------------------------------------------
-
---
--- 테이블 구조 `payments`
---
 
 DROP TABLE IF EXISTS `payments`;
 CREATE TABLE `payments` (
@@ -111,19 +54,6 @@ CREATE TABLE `payments` (
   `transaction_id` varchar(250) NOT NULL,
   `payment_date` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
-
---
--- 테이블의 덤프 데이터 `payments`
---
-
-INSERT INTO `payments` (`payment_id`, `order_id`, `user_id`, `transaction_id`, `payment_date`) VALUES
-(1, 2, 1, '8EC84214A5084661F', '2022-06-22 15:41:20');
-
--- --------------------------------------------------------
-
---
--- 테이블 구조 `products`
---
 
 DROP TABLE IF EXISTS `products`;
 CREATE TABLE `products` (
@@ -140,9 +70,6 @@ CREATE TABLE `products` (
   `product_color` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
---
--- 테이블의 덤프 데이터 `products`
---
 
 INSERT INTO `products` (`product_id`, `product_name`, `product_category`, `product_description`, `product_image`, `product_image2`, `product_image3`, `product_image4`, `product_price`, `product_special_offer`, `product_color`) VALUES
 (1, 'PSY SUMMER SWAG 2022 - INCHEON', 'KOREA', '2022.07.16(SAT) 18:00', 'PSY SUMMER SWAG 2022 - INCHEON1.jpeg', 'PSY SUMMER SWAG 2022 - INCHEON2.jpeg', 'PSY SUMMER SWAG 2022 - INCHEON3.jpeg', 'PSY SUMMER SWAG 2022 - INCHEON4.jpeg', '100.00', 0, 'Incheon Asiad Main Stadium'),
@@ -169,12 +96,6 @@ INSERT INTO `products` (`product_id`, `product_name`, `product_category`, `produ
 (22, 'WINNER WORLDTOUR - AUSTRALIA', 'OCEANIA', '2022.08.14(SUN) 18:00', 'WINNER WORLDTOUR - Australia1.jpeg', 'WINNER WORLDTOUR - Australia2.jpeg', 'WINNER WORLDTOUR - Australia3.jpeg', 'WINNER WORLDTOUR - Australia4.jpeg', '180.00', 0, 'Optus Stadium'),
 (23, 'ZICO WORLDTOUR - AUSTRALIA', 'OCEANIA', '2022.08.21(SUN) 18:00', 'ZICO WORLDTOUR - Australia1.jpeg', 'ZICO WORLDTOUR - Australia2.jpeg', 'ZICO WORLDTOUR - Australia3.jpeg', 'ZICO WORLDTOUR - Australia4.jpeg', '180.00', 0, 'Anz Stadium');
 
--- --------------------------------------------------------
-
---
--- 테이블 구조 `users`
---
-
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `user_id` int(11) NOT NULL,
@@ -183,95 +104,44 @@ CREATE TABLE `users` (
   `user_password` varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
---
--- 테이블의 덤프 데이터 `users`
---
-
 INSERT INTO `users` (`user_id`, `user_name`, `user_email`, `user_password`) VALUES
 (1, 'WONSUKJANG', 'jjangga700@naver.com', '4297f44b13955235245b2497399d7a93');
 
---
--- 덤프된 테이블의 인덱스
---
-
---
--- 테이블의 인덱스 `admins`
---
 ALTER TABLE `admins`
   ADD PRIMARY KEY (`admin_id`);
 
---
--- 테이블의 인덱스 `orders`
---
 ALTER TABLE `orders`
   ADD PRIMARY KEY (`order_id`);
 
---
--- 테이블의 인덱스 `order_items`
---
 ALTER TABLE `order_items`
   ADD PRIMARY KEY (`item_id`);
 
---
--- 테이블의 인덱스 `payments`
---
 ALTER TABLE `payments`
   ADD PRIMARY KEY (`payment_id`);
 
---
--- 테이블의 인덱스 `products`
---
 ALTER TABLE `products`
   ADD PRIMARY KEY (`product_id`);
 
---
--- 테이블의 인덱스 `users`
---
 ALTER TABLE `users`
   ADD PRIMARY KEY (`user_id`),
   ADD UNIQUE KEY `UX_Constraint` (`user_email`);
 
---
--- 덤프된 테이블의 AUTO_INCREMENT
---
-
---
--- 테이블의 AUTO_INCREMENT `admins`
---
 ALTER TABLE `admins`
   MODIFY `admin_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
---
--- 테이블의 AUTO_INCREMENT `orders`
---
 ALTER TABLE `orders`
   MODIFY `order_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
---
--- 테이블의 AUTO_INCREMENT `order_items`
---
 ALTER TABLE `order_items`
   MODIFY `item_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
---
--- 테이블의 AUTO_INCREMENT `payments`
---
 ALTER TABLE `payments`
   MODIFY `payment_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 
---
--- 테이블의 AUTO_INCREMENT `products`
---
 ALTER TABLE `products`
   MODIFY `product_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
 
---
--- 테이블의 AUTO_INCREMENT `users`
---
 ALTER TABLE `users`
   MODIFY `user_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
-/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
-/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
-/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
