@@ -34,7 +34,7 @@
             <img class="img-fluid" src="assets/imgs/DOK2 HIPHOP CONCERT - LA1.jpeg"/>
             <div class="details">
               <h2>DOK2 HIPHOP CONCERT - LA</h2>
-              <a href="single_product.php?product_id=19"><button class="buy-btn">Buy Now</button></a> 
+              <a href="single_product.php?product_id=9"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
           <!--Two-->
@@ -42,7 +42,7 @@
             <img class="img-fluid" src="assets/imgs/BLACK PINK WORLDTOUR - NEWYORK1.jpeg"/>
             <div class="details">
               <h2>BLACK PINK WORLDTOUR - NEWYORK</h2>
-              <a href="single_product.php?product_id=7"><button class="buy-btn">Buy Now</button></a> 
+              <a href="single_product.php?product_id=3"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
 
@@ -51,7 +51,7 @@
             <img class="img-fluid" src="assets/imgs/BTS WORLDTOUR - NEWYORK1.jpeg"/>
             <div class="details">
               <h2>BTS WORLDTOUR - NEWYORK </h2>
-              <a href="single_product.php?product_id=3"><button class="buy-btn">Buy Now</button></a> 
+              <a href="single_product.php?product_id=1"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
         </div>

@@ -156,28 +156,7 @@ if(isset($_POST['search'])){
                 </label>
               </div>
 
-               <div class="form-check">
-                <input class="form-check-input" value="KOREA" type="radio" name="category" id="category_one" <?php if(isset($category) && $category=='KOREA'){echo 'checked';}?> >
-                <label class="form-check-label" for="flexRadioDefault1">
-                  KOREA
-                </label>
-              </div>
 
-              <div class="form-check">
-                <input class="form-check-input" value="ASIA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='ASIA'){echo 'checked';}?>>
-                <label class="form-check-label" for="flexRadioDefault2">
-                  ASIA
-                </label>
-              </div>
-
-
-
-               <div class="form-check">
-                <input class="form-check-input" value="OCEANIA" type="radio" name="category" id="category_two" <?php if(isset($category) && $category=='OCEANIA'){echo 'checked';}?>>
-                <label class="form-check-label" for="flexRadioDefault2">
-                  OCEANIA
-                </label>
-              </div>
               
 
 

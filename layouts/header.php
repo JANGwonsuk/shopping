@@ -44,7 +44,7 @@ session_start();
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="https://www.soldesk.com/">Sponsor</a>
+                <a class="nav-link" href="http://4amticket.tk">GO KOREA</a>
               </li>
 
               <li class="nav-item">
