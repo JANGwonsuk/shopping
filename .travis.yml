@@ -1,7 +1,5 @@
 language: generic
 
-node_js:
-  - 15
 
 sudo: required
 
