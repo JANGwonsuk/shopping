@@ -12,11 +12,11 @@ services:
 
 
 script:
-  - docker build -t t900341/ftest-frontend2 ./
+  - docker build -t jjangga7000/project ./
 
   - echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_ID" --password-stdin
 
-  - docker push t900341/ftest-frontend2
+  - docker push jjangga7000/project
 
 #deploy:
 #  provider: elasticbeanstalks
