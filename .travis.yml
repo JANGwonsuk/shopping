@@ -12,11 +12,11 @@ services:
 
 
 script:
-  - docker build -t jjangga7000/project ./
+  - docker build -t jjangga7000/project_usa ./
 
   - echo "$DOCKER_HUB_PASSWORD" | docker login -u "$DOCKER_HUB_ID" --password-stdin
 
-  - docker push jjangga7000/project
+  - docker push jjangga7000/project_usa
 
 #deploy:
 #  provider: elasticbeanstalks
