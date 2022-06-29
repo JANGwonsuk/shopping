@@ -42,7 +42,7 @@
 
           <!--Three-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/japan.jpg"/>
+            <img class="img-fluid" src="assets/imgs/japan.png"/>
             <div class="details">
               <h2>Go JAPAN</h2>
               <a href="single_product.php?product_id=1"><button class="buy-btn">Buy Now</button></a> 

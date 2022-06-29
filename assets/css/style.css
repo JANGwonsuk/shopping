@@ -127,10 +127,10 @@ button:hover{
 #home{
     background-image: url('../imgs/4am_back.gif');
     width: 100%;
-    height: 110vh;
+    height: 70vh;
     background-size: cover;
     background-position-x: 0px;
-    background-position-y: 0px;
+    background-position-y: -160px;
     display: flex;
     flex-direction: column;
     justify-content: center;
