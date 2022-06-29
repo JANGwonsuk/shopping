@@ -42,7 +42,7 @@ session_start();
               </li>
 
               <li class="nav-item">
-                <a class="nav-link" href="http://4amticket.tk">GO KOREA</a>
+                <a class="nav-link" href="http://4amticket.tk">Sponsor</a>
               </li>
 
               <li class="nav-item">

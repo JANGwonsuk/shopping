@@ -25,26 +25,26 @@
         <div class="row p-0 m-0">
           <!--One-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/DOK2 HIPHOP CONCERT - LA1.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/korea.png"/>
             <div class="details">
-              <h2>DOK2 HIPHOP CONCERT - LA</h2>
-              <a href="single_product.php?product_id=9"><button class="buy-btn">Buy Now</button></a> 
+              <h2>Go KOREA</h2>
+              <a href="http://4amticket.tk"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
           <!--Two-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/BLACK PINK WORLDTOUR - NEWYORK1.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/europe.png"/>
             <div class="details">
-              <h2>BLACK PINK WORLDTOUR - NEWYORK</h2>
+              <h2>Go EUROPE</h2>
               <a href="single_product.php?product_id=3"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
 
           <!--Three-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
-            <img class="img-fluid" src="assets/imgs/BTS WORLDTOUR - NEWYORK1.jpeg"/>
+            <img class="img-fluid" src="assets/imgs/japan.jpg"/>
             <div class="details">
-              <h2>BTS WORLDTOUR - NEWYORK </h2>
+              <h2>Go JAPAN</h2>
               <a href="single_product.php?product_id=1"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
@@ -102,7 +102,7 @@
       <!--Clothes-->
       <section id="NORTHAMERICA" class="my-5">
         <div class="container text-center mt-5 py-5">
-          <h3>NORTHAMERICA</h3>
+          <h3>CONCERT</h3>
           <hr class="mx-auto">
           <p>Make Good Memories</p>
         </div>
@@ -135,7 +135,7 @@
      
      <section id="SOUTHAMERICA" class="my-5">
       <div class="container text-center mt-5 py-5">
-        <h3>SOUTHAMERICA</h3>
+        <h3>FANMEETING</h3>
         <hr class="mx-auto">
         <p>Make Good Memories</p>
       </div>
@@ -167,7 +167,7 @@
       <!--Shoes-->
       <section id="EUROPE" class="my-5">
         <div class="container text-center mt-5 py-5">
-          <h3>EUROPE</h3>
+          <h3>FESTIVAL</h3>
           <hr class="mx-auto">
           <p>Make Good Memories</p>
         </div>
