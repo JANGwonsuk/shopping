@@ -28,7 +28,7 @@
             <img class="img-fluid" src="assets/imgs/korea.png"/>
             <div class="details">
               <h2>Go KOREA</h2>
-              <a href="http://4amticket.tk"><button class="buy-btn">Buy Now</button></a> 
+              <a href="https://www.4amticket.tk"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
           <!--Two-->
