@@ -36,7 +36,7 @@ if(isset($_POST['login_btn'])){
       }
 
   }else{
-    //error
+    //에러
     header('location: login.php?error=something went wrong');
 
   }

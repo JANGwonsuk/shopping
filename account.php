@@ -28,16 +28,16 @@ if(isset($_POST['change_password'])){
           $confirmPassword = $_POST['confirmPassword'];
           $user_email = $_SESSION['user_email'];
 
-          //if passwords dont match
+          //비밀번호 미스매치
           if($password !== $confirmPassword){
             header('location: account.php?error=passwords dont match');
           
 
-          //if passwod is less than 6 char
+          //비밀번호 6자리 미만
           }else if(strlen($password) < 6){
             header('location: account.php?error=password must be at least 6 charachters');
 
-            //no errors
+          //이상 없음
           }else{
              
             $stmt = $conn->prepare("UPDATE users SET user_password=? WHERE user_email=?");
@@ -57,7 +57,7 @@ if(isset($_POST['change_password'])){
 
 
 
-//get orders
+//주문
 if(isset($_SESSION['logged_in'])){
 
   $user_id = $_SESSION['user_id'];

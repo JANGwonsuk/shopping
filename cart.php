@@ -2,11 +2,11 @@
 <?php
 if(isset($_POST['add_to_cart'])){
 
-    //if user has already added a product to cart
+    //장바구니에 제품 담기
     if(isset($_SESSION['cart'])){
 
-       $products_array_ids = array_column($_SESSION['cart'],"product_id"); // [2,3,4,10,15]
-       //if product has already been addedcto cart or not
+       $products_array_ids = array_column($_SESSION['cart'],"product_id"); 
+       
        if( !in_array($_POST['product_id'], $products_array_ids) ){
 
             $product_id = $_POST['product_id'];
@@ -22,7 +22,7 @@ if(isset($_POST['add_to_cart'])){
               $_SESSION['cart'][$product_id] = $product_array;
 
 
-        //product has already been added
+        //삼품 카트 담긴거 또 담을때
        }else{
          
             echo '<script>alert("Product was already to cart");</script>';
@@ -31,7 +31,7 @@ if(isset($_POST['add_to_cart'])){
        }
 
 
-      //if this is the first product
+      //첫번째 상품 카트에 담기
     }else{
  
        $product_id = $_POST['product_id'];
@@ -49,13 +49,13 @@ if(isset($_POST['add_to_cart'])){
        );
 
        $_SESSION['cart'][$product_id] = $product_array;
-       // [ 2=>[] , 3=>[], 5=>[]  ]
+       
 
 
     }
 
 
-    //calculate total
+    //총합
     calculateTotalCart();
 
 

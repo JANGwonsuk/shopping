@@ -23,7 +23,7 @@
       <!--New-->
       <section id="new" class="w-100">
         <div class="row p-0 m-0">
-          <!--One-->
+          <!--Go KOREA-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
             <img class="img-fluid" src="assets/imgs/korea.png"/>
             <div class="details">
@@ -31,7 +31,7 @@
               <a href="https://www.4amticket.tk"><button class="buy-btn">Buy Now</button></a> 
             </div>
           </div>
-          <!--Two-->
+          <!--Go EUROP-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
             <img class="img-fluid" src="assets/imgs/europe.png"/>
             <div class="details">
@@ -40,7 +40,7 @@
             </div>
           </div>
 
-          <!--Three-->
+          <!--Go JAPAN-->
           <div class="one col-lg-4 col-md-12 col-sm-12 p-0">
             <img class="img-fluid" src="assets/imgs/japan.png"/>
             <div class="details">
@@ -99,7 +99,7 @@
       </section>
    
 
-      <!--Clothes-->
+      <!--CONCERT-->
       <section id="NORTHAMERICA" class="my-5">
         <div class="container text-center mt-5 py-5">
           <h3>CONCERT</h3>
@@ -132,7 +132,7 @@
       </section>
 
 
-     
+     <!--FANMEETING-->
      <section id="SOUTHAMERICA" class="my-5">
       <div class="container text-center mt-5 py-5">
         <h3>FANMEETING</h3>
@@ -164,7 +164,7 @@
       </div>
      </section>
 
-      <!--Shoes-->
+      <!--FESTIVAL-->
       <section id="EUROPE" class="my-5">
         <div class="container text-center mt-5 py-5">
           <h3>FESTIVAL</h3>
