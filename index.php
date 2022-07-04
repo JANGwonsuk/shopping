@@ -164,7 +164,7 @@
       </div>
      </section>
 
-      <!--FESTIVAL-->
+      <!--FESTIVAL1-->
       <section id="EUROPE" class="my-5">
         <div class="container text-center mt-5 py-5">
           <h3>FESTIVAL</h3>
