@@ -169,7 +169,7 @@
         <div class="container text-center mt-5 py-5">
           <h3>FESTIVAL</h3>
           <hr class="mx-auto">
-          <p>Make Good Memories11</p>
+          <p>Make Good Memories</p>
         </div>
         <div class="row mx-auto container-fluid">
 
